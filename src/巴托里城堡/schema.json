@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "莉奥娜": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "情欲值": {
+          "default": 0,
+          "type": "number",
+          "description": "莉奥娜对<user>的性欲与沉沦程度，0~100"
+        },
+        "心声": {
+          "default": "",
+          "type": "string",
+          "maxLength": 240,
+          "description": "莉奥娜本轮内心独白，2~4句；不在场时为空字符串，按阶段情绪基调自由发挥"
+        }
+      }
+    },
+    "薇拉": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "依赖值": {
+          "default": 0,
+          "type": "number",
+          "description": "薇拉对<user>的无意识依赖程度，0~100"
+        },
+        "心声": {
+          "default": "",
+          "type": "string",
+          "maxLength": 240,
+          "description": "薇拉本轮如实报告，2~4句；不在场时为空字符串，按阶段情绪基调自由发挥"
+        }
+      }
+    }
+  }
+}

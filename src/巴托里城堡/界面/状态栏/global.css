@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* 巴托里城堡 · 状态栏配色（烛火、月光、银器、暗红、白丝） */
+  --c-text: #d8d3c8; /* 银灰白：月光照在银器上 —— 姓名 */
+  --c-text-muted: #8a8578; /* 暗灰：烛火照不到的角落 —— 心声、数值 */
+  --c-border: rgba(200, 190, 170, 0.18); /* 极淡暖灰：烛火边缘的微光 —— 区块分隔 */
+  --c-accent-leona: #a03c3c; /* 暗红：莉奥娜的红瞳 —— 莉奥娜阶段/数值 */
+  --c-accent-vira: #c8b8a0; /* 暖白：薇拉的白丝/银链 —— 薇拉阶段/数值 */
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--c-text);
+}
